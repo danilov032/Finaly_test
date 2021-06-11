@@ -5,6 +5,7 @@ class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
     BASKET_BUTTON = (By.CSS_SELECTOR, ".basket-mini a.btn-default")
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
 
 class MainPageLocators():
@@ -28,3 +29,11 @@ class ProductPageLocators():
 class BasketPageLocators():
     BASKET_EMPTY = (By.CSS_SELECTOR, "#content_inner")
     NAME_PRODUCT = (By.CSS_SELECTOR, ".basket-items h3 a")
+
+
+class RegistratioPageLocators():
+    EMAIL_INPUT = (By.CSS_SELECTOR, "#id_registration-email")
+    PASSWORD_INPUT = (By.CSS_SELECTOR, "#id_registration-password1")
+    REPEAT_PASSWORD_INPUT = (By.CSS_SELECTOR, "#id_registration-password2")
+    BUTTON_REG = (By.NAME, "registration_submit")
+    REG_SUCCESS = (By.XPATH, "(//div[contains(@class,'wicon')])[1]")
