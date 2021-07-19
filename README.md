@@ -1,1 +1,1 @@
-Итоговое тестовое задание курса Автоматизация тестирования с помощью Selenium и Python с сайта stepik
+Python + Selenium + WebDrider + PageObject
