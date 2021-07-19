@@ -4,7 +4,7 @@ gradle-app.setting
 !gradle-wrapper.jar
 .gradletasknamecache
 
-.pytest_cache/
-.__pycache/
+pytest_cache/
+__pycache/
 venv/
 .idea/

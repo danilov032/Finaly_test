@@ -61,7 +61,6 @@ class BasePage():
 
         return True
 
-
     def go_to_basket(self):
         basket = self.browser.find_element(*BasePageLocators.BASKET_BUTTON)
         basket.click()
